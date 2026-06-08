@@ -7,6 +7,7 @@
   --lime: #aaff00;
   --yellow: #ffe066;
   --navy: #0a0a2e;
+  --blue: #00a2ff;
   --glass: rgba(255, 255, 255, 0.08);
   --glass-border: rgba(255, 255, 255, 0.25);
   --text: #e8f4f8;
@@ -408,7 +409,7 @@ nav a.active {
 .sf-lime { background: linear-gradient(90deg, #226600, var(--lime)); box-shadow: 0 0 8px var(--lime); }
 .sf-purp { background: linear-gradient(90deg, #300880, var(--purple)); box-shadow: 0 0 8px var(--purple); }
 .sf-yell { background: linear-gradient(90deg, #886600, var(--yellow)); box-shadow: 0 0 8px var(--yellow); }
-
+.sf-blue { background: linear-gradient(90deg, #08598b, var(--blue)); box-shadow: 0 0 8px var(--blue); }
 .counter {
   font-family: 'Press Start 2P', monospace;
   font-size: 0.6rem;
