@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>✦ projects ✦</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root { --page-bg: url('img/fondo2.jpeg'); }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header>
+      <div class="site-title">✦ my portfolio ✦</div>
+      <div class="subtitle">// engineering · art · code //</div>
+    </header>
+
+    <div class="marquee-bar">
+      <span class="marquee-inner">
+        ✦ welcome to my corner of the internet ✦ permanently under construction ✦ made with love &amp; caffeine ✦ best viewed at 1920x1080 ✦ est. 2025 ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        ✦ welcome to my corner of the internet ✦ permanently under construction ✦ made with love &amp; caffeine ✦ best viewed at 1920x1080 ✦ est. 2025 ✦
+      </span>
+    </div>
+
+    <nav>
+      <a href="index.html">home</a>
+      <a href="projects.html" class="active">projects</a>
+      <a href="skills.html">skills</a>
+      <a href="about.html">about me</a>
+      <a href="contact.html">contact</a>
+      <a href="links.html">links</a>
+    </nav>
+
+    <div class="grid">
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+
+        <div class="panel">
+          <div class="panel-title">// about me //</div>
+          <p style="font-size:1.05rem;line-height:1.6;color:#cce8f0;">
+            22 y/o · AI engineering student<br>
+            ESCOM · IPN · CDMX<br><br>
+            currently: working at C5 CDMX
+          </p>
+          <a href="about.html" class="sidebar-link">→ full profile</a>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">// contact //</div>
+          <p style="font-size:1rem;line-height:1.8;color:#cce8f0;">
+            📧 <a href="mailto:naomi.robguz@gmail.com" style="color:var(--cyan);text-decoration:none;">email</a><br>
+            💻 <a href="https://github.com/your-username" style="color:var(--pink);text-decoration:none;">github</a><br>
+            🔗 <a href="https://linkedin.com/in/your-username" style="color:var(--lime);text-decoration:none;">linkedin</a><br>
+            ▶️ <a href="https://www.youtube.com/@roblesguzmannaomiisabel9922" style="color:var(--purple);text-decoration:none;">youtube</a>
+          </p>
+          <a href="contact.html" class="sidebar-link">→ full contact</a>
+        </div>
+
+        <div class="panel" style="text-align:center;">
+          <div class="panel-title">// visitors //</div>
+          <div class="counter" id="visitor-count">000000</div>
+          <div style="font-size:0.9rem;color:rgba(255,255,255,0.4);margin-top:6px;">since launch</div>
+        </div>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main class="main">
+
+        <section class="panel">
+          <div class="panel-title">// featured projects //</div>
+          <div class="projects-grid">
+
+            <div class="project-card">
+              <span class="project-icon">🏪</span>
+              <div class="project-name">Smart Location Advisor</div>
+              <div class="project-desc">
+                Decision-support platform for entrepreneurs that combines geospatial analysis,
+                 DENUE business intelligence, infrastructure visualization, 
+                 AI-powered guidance on government permits and procedures,
+                  and route optimization to support the launch of new businesses.
+              </div>
+              <div class="project-tags">
+                <span class="tag tag-cyan">Vite + React</span>
+                <span class="tag tag-lime">Python</span>
+                <span class="tag tag-pink">RAG</span>
+                <span class="tag tag-purp">GeoAI</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <span class="project-icon">🚇</span>
+              <div class="project-name">Metro L1 Incident Prediction</div>
+              <div class="project-desc">End-to-end predictive maintenance for CDMX Metro Line 1. CatBoost model + Next.js dashboard with real-time incident probability per station.</div>
+              <div class="project-tags">
+                <span class="tag tag-pink">CatBoost</span>
+                <span class="tag tag-cyan">Next.js</span>
+                <span class="tag tag-lime">Python</span>
+                <span class="tag tag-purp">Hackathon</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <span class="project-icon">🗺️</span>
+              <div class="project-name">Geospatial Correlation — C5</div>
+              <div class="project-desc">Large-scale urban incident analysis pipelines. KDE heatmaps, bivariate Moran's I, and Mann-Whitney U tests for security intelligence in CDMX.</div>
+              <div class="project-tags">
+                <span class="tag tag-cyan">GeoPandas</span>
+                <span class="tag tag-lime">QGIS</span>
+                <span class="tag tag-pink">Python</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <span class="project-icon">📡</span>
+              <div class="project-name">Web Mapping Platform — C5</div>
+              <div class="project-desc">Full-stack app for querying CDMX urban infrastructure (cameras, POIs, polygons) with MapLibre GL JS interactive maps and GeoJSON endpoints.</div>
+              <div class="project-tags">
+                <span class="tag tag-lime">React</span>
+                <span class="tag tag-pink">FastAPI</span>
+                <span class="tag tag-cyan">MapLibre</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <span class="project-icon">🎙️</span>
+              <div class="project-name">Citizen Report Analysis</div>
+              <div class="project-desc">Audio-to-report pipeline for C5 CDMX. Speech-to-text via IBM Watsonx, NLP keyword extraction, incident classification, and automated report generation.</div>
+              <div class="project-tags">
+                <span class="tag tag-purp">NLP</span>
+                <span class="tag tag-cyan">IBM Watsonx</span>
+                <span class="tag tag-pink">Python</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <span class="project-icon">📋</span>
+              <div class="project-name">Quotation Capture System</div>
+              <div class="project-desc">Desktop app for a print &amp; design studio to manage client quotes, generate PDFs (Puppeteer), and import product catalogs from Excel.</div>
+              <div class="project-tags">
+                <span class="tag tag-lime">Electron</span>
+                <span class="tag tag-cyan">SQLite</span>
+                <span class="tag tag-pink">Tailwind</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <span class="project-icon">💸</span>
+              <div class="project-name">Open Payments Donation Network</div>
+              <div class="project-desc">Social platform for charitable donations via Interledger Open Payments API. Finalist at 2025 hackathon — functional prototype in 48 hours.</div>
+              <div class="project-tags">
+                <span class="tag tag-purp">Next.js</span>
+                <span class="tag tag-cyan">Open Payments</span>
+                <span class="tag tag-lime">Finalist ✦</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <span class="project-icon">✅</span>
+              <div class="project-name">AI-Powered Task Manager</div>
+              <div class="project-desc">Calendar-based task manager with real-time AI resource recommendations surfaced inline via OpenRouter/Perplexity API.</div>
+              <div class="project-tags">
+                <span class="tag tag-cyan">Next.js</span>
+                <span class="tag tag-pink">PostgreSQL</span>
+                <span class="tag tag-purp">Prisma</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <span class="project-icon">📱</span>
+              <div class="project-name">Short-Video Blocker (Android)</div>
+              <div class="project-desc">Android app that blocks TikTok, YouTube Shorts, and Facebook Reels using AccessibilityService — no root required.</div>
+              <div class="project-tags">
+                <span class="tag tag-lime">Kotlin</span>
+                <span class="tag tag-cyan">Android</span>
+                <span class="tag tag-pink">Accessibility API</span>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </main>
+
+      <footer>
+        <div class="footer-text">
+          hand-coded with HTML · CSS · JS &nbsp;|&nbsp;
+          <span>♥</span> no heavy frameworks &nbsp;|&nbsp;
+          © <span id="year"></span> your name
+        </div>
+        <div style="margin-top:6px;font-size:0.85rem;color:rgba(255,255,255,0.25);">
+          best viewed on desktop · ~1920px wide
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

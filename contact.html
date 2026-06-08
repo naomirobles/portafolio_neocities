@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>✦ contact ✦</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root { --page-bg: url('img/fondo1.jpeg'); }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      font-size: 1.1rem;
+      color: #cce8f0;
+    }
+
+    .contact-item:last-child { border-bottom: none; }
+
+    .contact-item a {
+      text-decoration: none;
+      transition: color 0.1s;
+    }
+
+    .contact-item a:hover { text-decoration: underline; }
+
+    .contact-label {
+      font-family: 'Silkscreen', monospace;
+      font-size: 0.6rem;
+      color: rgba(255,255,255,0.4);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      width: 70px;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header>
+      <div class="site-title">✦ my portfolio ✦</div>
+      <div class="subtitle">// engineering · art · code //</div>
+    </header>
+
+    <div class="marquee-bar">
+      <span class="marquee-inner">
+        ✦ welcome to my corner of the internet ✦ permanently under construction ✦ made with love &amp; caffeine ✦ best viewed at 1920x1080 ✦ est. 2025 ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        ✦ welcome to my corner of the internet ✦ permanently under construction ✦ made with love &amp; caffeine ✦ best viewed at 1920x1080 ✦ est. 2025 ✦
+      </span>
+    </div>
+
+    <nav>
+      <a href="index.html">home</a>
+      <a href="projects.html">projects</a>
+      <a href="skills.html">skills</a>
+      <a href="about.html">about me</a>
+      <a href="contact.html" class="active">contact</a>
+      <a href="links.html">links</a>
+    </nav>
+
+    <div class="grid">
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+
+        <div class="panel">
+          <div class="panel-title">// about me //</div>
+          <p style="font-size:1.05rem;line-height:1.6;color:#cce8f0;">
+            22 y/o · AI engineering student<br>
+            ESCOM · IPN · CDMX<br><br>
+            currently: working at C5 CDMX
+          </p>
+          <a href="about.html" class="sidebar-link">→ full profile</a>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">// contact //</div>
+          <p style="font-size:1rem;line-height:1.8;color:#cce8f0;">
+            📧 <a href="mailto:naomi.robguz@gmail.com" style="color:var(--cyan);text-decoration:none;">email</a><br>
+            💻 <a href="https://github.com/your-username" style="color:var(--pink);text-decoration:none;">github</a><br>
+            🔗 <a href="https://linkedin.com/in/your-username" style="color:var(--lime);text-decoration:none;">linkedin</a><br>
+            ▶️ <a href="https://www.youtube.com/@roblesguzmannaomiisabel9922" style="color:var(--purple);text-decoration:none;">youtube</a>
+          </p>
+          <a href="contact.html" class="sidebar-link">→ full contact</a>
+        </div>
+
+        <div class="panel" style="text-align:center;">
+          <div class="panel-title">// visitors //</div>
+          <div class="counter" id="visitor-count">000000</div>
+          <div style="font-size:0.9rem;color:rgba(255,255,255,0.4);margin-top:6px;">since launch</div>
+        </div>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main class="main">
+
+        <section class="panel">
+          <div class="panel-title">// get in touch //</div>
+          <p class="welcome-text" style="margin-bottom:16px;">
+            feel free to reach out — whether it's about collaboration,
+            questions, or just to say hi ♥
+          </p>
+
+          <div class="contact-item">
+            <span class="contact-label">email</span>
+            <span>📧</span>
+            <a href="mailto:naomi.robguz@gmail.com" style="color:var(--cyan);">naomi.robguz@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">github</span>
+            <span>💻</span>
+            <a href="https://github.com/your-username" style="color:var(--pink);">github.com/your-username</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">linkedin</span>
+            <span>🔗</span>
+            <a href="https://linkedin.com/in/your-username" style="color:var(--lime);">linkedin.com/in/your-username</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">youtube</span>
+            <span>▶️</span>
+            <a href="https://www.youtube.com/@roblesguzmannaomiisabel9922" style="color:var(--purple);">@roblesguzmannaomiisabel9922</a>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">// response time //</div>
+          <p style="font-size:1.1rem;line-height:1.8;color:#cce8f0;">
+            i usually reply within <span style="color:var(--cyan);">24–48 hours</span>.<br>
+            for urgent matters, email is the fastest way to reach me.<br><br>
+            <span style="color:rgba(255,255,255,0.5);">
+              currently based in CDMX · timezone UTC-6
+            </span>
+          </p>
+        </section>
+
+      </main>
+
+      <footer>
+        <div class="footer-text">
+          hand-coded with HTML · CSS · JS &nbsp;|&nbsp;
+          <span>♥</span> no heavy frameworks &nbsp;|&nbsp;
+          © <span id="year"></span> your name
+        </div>
+        <div style="margin-top:6px;font-size:0.85rem;color:rgba(255,255,255,0.25);">
+          best viewed on desktop · ~1920px wide
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

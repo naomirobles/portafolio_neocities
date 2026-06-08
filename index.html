@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>✦ my portfolio ✦</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root { --page-bg: url('img/fondo1.jpeg'); }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header>
+      <div class="site-title">✦ my portfolio ✦</div>
+      <div class="subtitle">// engineering · art · code //</div>
+    </header>
+
+    <div class="marquee-bar">
+      <span class="marquee-inner">
+        ✦ welcome to my corner of the internet ✦ permanently under construction ✦ made with love &amp; caffeine ✦ best viewed at 1920x1080 ✦ est. 2025 ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        ✦ welcome to my corner of the internet ✦ permanently under construction ✦ made with love &amp; caffeine ✦ best viewed at 1920x1080 ✦ est. 2025 ✦
+      </span>
+    </div>
+
+    <nav>
+      <a href="index.html" class="active">home</a>
+      <a href="projects.html">projects</a>
+      <a href="skills.html">skills</a>
+      <a href="about.html">about me</a>
+      <a href="contact.html">contact</a>
+      <a href="links.html">links</a>
+    </nav>
+
+    <div class="grid">
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+
+        <div class="panel">
+          <div class="panel-title">// about me //</div>
+          <p style="font-size:1.05rem;line-height:1.6;color:#cce8f0;">
+            22 y/o · AI engineering student<br>
+            ESCOM · IPN · CDMX<br><br>
+            currently: working at C5 CDMX
+          </p>
+          <a href="about.html" class="sidebar-link">→ full profile</a>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">// contact //</div>
+          <p style="font-size:1rem;line-height:1.8;color:#cce8f0;">
+            📧 <a href="mailto:naomi.robguz@gmail.com" style="color:var(--cyan);text-decoration:none;">email</a><br>
+            💻 <a href="https://github.com/your-username" style="color:var(--pink);text-decoration:none;">github</a><br>
+            🔗 <a href="https://linkedin.com/in/your-username" style="color:var(--lime);text-decoration:none;">linkedin</a><br>
+            ▶️ <a href="https://www.youtube.com/@roblesguzmannaomiisabel9922" style="color:var(--purple);text-decoration:none;">youtube</a>
+          </p>
+          <a href="contact.html" class="sidebar-link">→ full contact</a>
+        </div>
+
+        <div class="panel" style="text-align:center;">
+          <div class="panel-title">// visitors //</div>
+          <div class="counter" id="visitor-count">000000</div>
+          <div style="font-size:0.9rem;color:rgba(255,255,255,0.4);margin-top:6px;">since launch</div>
+        </div>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main class="main">
+
+        <section class="panel">
+          <div class="panel-title">// welcome! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ //</div>
+          <p class="welcome-text">
+            hi! i'm <span>Naomi Robles</span>, an AI engineering student and developer.
+            this is my little corner of the internet — a place to document projects,
+            explore ideas, and collect things i care about.<br><br>
+            here you'll find my technical portfolio, code experiments,
+            and things i find interesting. feel free to explore.
+          </p>
+          <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap;">
+            <span class="tag tag-pink">AI Engineering</span>
+            <span class="tag tag-cyan">Geospatial</span>
+            <span class="tag tag-lime">Full Stack</span>
+            <span class="tag tag-purp">NLP / LLMs</span>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">// explore //</div>
+          <div class="projects-grid">
+            <a href="projects.html" style="text-decoration:none;">
+              <div class="project-card" style="text-align:center;padding:20px 12px;">
+                <span class="project-icon">🗺️</span>
+                <div class="project-name">projects</div>
+                <div class="project-desc">see my work</div>
+              </div>
+            </a>
+            <a href="skills.html" style="text-decoration:none;">
+              <div class="project-card" style="text-align:center;padding:20px 12px;">
+                <span class="project-icon">⚡</span>
+                <div class="project-name">skills</div>
+                <div class="project-desc">tech stack</div>
+              </div>
+            </a>
+            <a href="about.html" style="text-decoration:none;">
+              <div class="project-card" style="text-align:center;padding:20px 12px;">
+                <span class="project-icon">🌙</span>
+                <div class="project-name">about me</div>
+                <div class="project-desc">who i am</div>
+              </div>
+            </a>
+            <a href="links.html" style="text-decoration:none;">
+              <div class="project-card" style="text-align:center;padding:20px 12px;">
+                <span class="project-icon">🔗</span>
+                <div class="project-name">links</div>
+                <div class="project-desc">cool stuff</div>
+              </div>
+            </a>
+          </div>
+        </section>
+
+      </main>
+
+      <footer>
+        <div class="footer-text">
+          hand-coded with HTML · CSS · JS &nbsp;|&nbsp;
+          <span>♥</span> no heavy frameworks &nbsp;|&nbsp;
+          © <span id="year"></span> your name
+        </div>
+        <div style="margin-top:6px;font-size:0.85rem;color:rgba(255,255,255,0.25);">
+          best viewed on desktop · ~1920px wide
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

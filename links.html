@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>✦ links ✦</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root { --page-bg: url('img/fondo2.jpeg'); }
+
+    .link-list { display: flex; flex-direction: column; gap: 6px; }
+
+    .link-item {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      font-size: 1.1rem;
+      color: #cce8f0;
+      padding: 4px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .link-item:last-child { border-bottom: none; }
+
+    .link-item a { text-decoration: none; transition: color 0.1s; }
+    .link-item a:hover { text-decoration: underline; }
+
+    .link-desc {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.45);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header>
+      <div class="site-title">✦ my portfolio ✦</div>
+      <div class="subtitle">// engineering · art · code //</div>
+    </header>
+
+    <div class="marquee-bar">
+      <span class="marquee-inner">
+        ✦ welcome to my corner of the internet ✦ permanently under construction ✦ made with love &amp; caffeine ✦ best viewed at 1920x1080 ✦ est. 2025 ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        ✦ welcome to my corner of the internet ✦ permanently under construction ✦ made with love &amp; caffeine ✦ best viewed at 1920x1080 ✦ est. 2025 ✦
+      </span>
+    </div>
+
+    <nav>
+      <a href="index.html">home</a>
+      <a href="projects.html">projects</a>
+      <a href="skills.html">skills</a>
+      <a href="about.html">about me</a>
+      <a href="contact.html">contact</a>
+      <a href="links.html" class="active">links</a>
+    </nav>
+
+    <div class="grid">
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+
+        <div class="panel">
+          <div class="panel-title">// about me //</div>
+          <p style="font-size:1.05rem;line-height:1.6;color:#cce8f0;">
+            22 y/o · AI engineering student<br>
+            ESCOM · IPN · CDMX<br><br>
+            currently: working at C5 CDMX
+          </p>
+          <a href="about.html" class="sidebar-link">→ full profile</a>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">// contact //</div>
+          <p style="font-size:1rem;line-height:1.8;color:#cce8f0;">
+            📧 <a href="mailto:naomi.robguz@gmail.com" style="color:var(--cyan);text-decoration:none;">email</a><br>
+            💻 <a href="https://github.com/your-username" style="color:var(--pink);text-decoration:none;">github</a><br>
+            🔗 <a href="https://linkedin.com/in/your-username" style="color:var(--lime);text-decoration:none;">linkedin</a><br>
+            ▶️ <a href="https://www.youtube.com/@roblesguzmannaomiisabel9922" style="color:var(--purple);text-decoration:none;">youtube</a>
+          </p>
+          <a href="contact.html" class="sidebar-link">→ full contact</a>
+        </div>
+
+        <div class="panel" style="text-align:center;">
+          <div class="panel-title">// visitors //</div>
+          <div class="counter" id="visitor-count">000000</div>
+          <div style="font-size:0.9rem;color:rgba(255,255,255,0.4);margin-top:6px;">since launch</div>
+        </div>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main class="main">
+
+        <section class="panel">
+          <div class="panel-title">// my profiles //</div>
+          <div class="link-list">
+            <div class="link-item">
+              <span>💻</span>
+              <a href="https://github.com/your-username" style="color:var(--pink);">GitHub</a>
+              <span class="link-desc">— code &amp; projects</span>
+            </div>
+            <div class="link-item">
+              <span>🔗</span>
+              <a href="https://linkedin.com/in/your-username" style="color:var(--lime);">LinkedIn</a>
+              <span class="link-desc">— professional profile</span>
+            </div>
+            <div class="link-item">
+              <span>🌐</span>
+              <a href="https://www.youtube.com/@roblesguzmannaomiisabel9922" style="color:var(--cyan);">YouTube</a>
+              <span class="link-desc">— @roblesguzmannaomiisabel9922</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">// tools i use //</div>
+          <div class="link-list">
+            <div class="link-item">
+              <span>🗺️</span>
+              <a href="https://maplibre.org" style="color:var(--cyan);">MapLibre GL</a>
+              <span class="link-desc">— open-source map renderer</span>
+            </div>
+            <div class="link-item">
+              <span>🤖</span>
+              <a href="https://ollama.com" style="color:var(--pink);">Ollama</a>
+              <span class="link-desc">— run LLMs locally</span>
+            </div>
+            <div class="link-item">
+              <span>⚡</span>
+              <a href="https://fastapi.tiangolo.com" style="color:var(--lime);">FastAPI</a>
+              <span class="link-desc">— Python web framework</span>
+            </div>
+            <div class="link-item">
+              <span>🗄️</span>
+              <a href="https://postgis.net" style="color:var(--purple);">PostGIS</a>
+              <span class="link-desc">— spatial database extension</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">// learning resources //</div>
+          <div class="link-list">
+            <div class="link-item">
+              <span>📚</span>
+              <a href="#" style="color:var(--cyan);">resource link here</a>
+              <span class="link-desc">— description</span>
+            </div>
+            <div class="link-item">
+              <span>📖</span>
+              <a href="#" style="color:var(--pink);">another resource</a>
+              <span class="link-desc">— description</span>
+            </div>
+            <div class="link-item">
+              <span>🎥</span>
+              <a href="#" style="color:var(--lime);">video / course</a>
+              <span class="link-desc">— description</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">// cool sites //</div>
+          <div class="link-list">
+            <div class="link-item">
+              <span>✦</span>
+              <a href="https://neocities.org" style="color:var(--purple);">Neocities</a>
+              <span class="link-desc">— indie web hosting</span>
+            </div>
+            <div class="link-item">
+              <span>✦</span>
+              <a href="#" style="color:var(--cyan);">cool site 1</a>
+              <span class="link-desc">— description</span>
+            </div>
+            <div class="link-item">
+              <span>✦</span>
+              <a href="#" style="color:var(--pink);">cool site 2</a>
+              <span class="link-desc">— description</span>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <footer>
+        <div class="footer-text">
+          hand-coded with HTML · CSS · JS &nbsp;|&nbsp;
+          <span>♥</span> no heavy frameworks &nbsp;|&nbsp;
+          © <span id="year"></span> your name
+        </div>
+        <div style="margin-top:6px;font-size:0.85rem;color:rgba(255,255,255,0.25);">
+          best viewed on desktop · ~1920px wide
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
